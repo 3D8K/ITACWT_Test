@@ -5,7 +5,6 @@ import { Row as TRow } from "react-table";
 
 export interface IRowProps {
   style: CSSProperties;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   row: TRow<any>;
   handler: (record: ITableRow) => void;
 }
